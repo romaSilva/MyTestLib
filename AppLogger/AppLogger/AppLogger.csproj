@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<PackageId>Romario.Teste.AppLogger</PackageId>
+		<Authors>Romario</Authors>
+		<Company>Romario</Company>
+		<Description>Teste validação Source Link</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Romario</PackageTags>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+	</ItemGroup>
+
+</Project>
